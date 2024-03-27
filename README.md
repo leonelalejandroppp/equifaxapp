@@ -33,8 +33,7 @@ No es necesario ejecutar Scripts ya que la aplicación lo hace por si sola, tant
 
 Una vez que los contenedores estén en funcionamiento, puede acceder a la aplicación desde su navegador web a través de la siguiente URL:
 
-    ```bash
-    http://localhost:4200/auth/login
+- [http://localhost:4200/auth/login](http://localhost:4200/auth/login)
 
 #### Usuarios para ingresar a la app:
 
