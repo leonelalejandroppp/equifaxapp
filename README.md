@@ -45,3 +45,18 @@ Una vez que los contenedores estén en funcionamiento, puede acceder a la aplica
 #### Archivo para la carga de personas
 
 El archivo para cargar las personas se encuentra en la carpeta **excel-file**
+
+## Testing
+
+Para correr los tests de las aplicaciones, se deben ejecutar por separados:
+
+- Backend
+
+    ```bash
+    cd api
+    mvn tests
+
+- Frontend
+    ```bash
+    cd front
+    ng test
