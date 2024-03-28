@@ -6,13 +6,14 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { HttpService } from '../../services/http.service';
 import { Router } from '@angular/router';
+import { ErrorComponentComponent } from '../../shared/error-component/error-component.component';
 
 
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatButtonModule],
+  imports: [ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatButtonModule, ErrorComponentComponent],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })

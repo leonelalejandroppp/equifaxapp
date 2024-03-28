@@ -16,8 +16,4 @@
     </div>
 </form>
 
-@if(errorMessage) {
-    <div class="bg-red-400 mt-5 p-5 text-white">
-        {{errorMessage}}
-    </div>
-}
+<app-error-component [errorMessage]="errorMessage"></app-error-component>
